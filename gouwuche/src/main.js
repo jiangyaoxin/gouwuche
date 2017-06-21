@@ -2,7 +2,9 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-
+import Icon from './components/Icon.vue'
+import './icons/index.js'
+Vue.component('icon', Icon)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
